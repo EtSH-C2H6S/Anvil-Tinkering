@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.c2h6s.anvil_tinkering.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "anvil_tinkering.refmap.json",
+  "mixins": [
+
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
