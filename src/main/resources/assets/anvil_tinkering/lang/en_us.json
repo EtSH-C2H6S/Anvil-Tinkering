@@ -1,0 +1,33 @@
+{
+  "modifier.anvil_tinkering.magnetizing": "Magnetizing",
+  "modifier.anvil_tinkering.magnetizing.flavor": "Strong magnetic field.",
+  "modifier.anvil_tinkering.magnetizing.description": "Have a chance to magnetize iron blocks and ingots dropped by your tool.",
+
+  "modifier.anvil_tinkering.unbreaking": "Unbreaking",
+  "modifier.anvil_tinkering.unbreaking.flavor": "With a maximum level of III",
+  "modifier.anvil_tinkering.unbreaking.description": "Have a chance to ignore durability cost,same as Unbreaking enchantment.",
+
+
+
+  "material.anvil_tinkering.royal_steel": "Royal Steel",
+  "material.anvil_tinkering.royal_steel.flavor": "Better than diamonds!",
+  "material.anvil_tinkering.royal_steel.encyclopedia": "Shiny metal that features properties of gems.",
+
+  "material.anvil_tinkering.magnet": "Magnet",
+  "material.anvil_tinkering.magnet.flavor": "It's more about magnetized iron.",
+  "material.anvil_tinkering.magnet.encyclopedia": "Chance for magnetizing is 2% each level.",
+
+
+
+  "item.anvil_tinkering.pressure_plate_cast": "Pressure Plate Gold Cast",
+  "item.anvil_tinkering.pressure_plate_sand_cast": "Pressure Plate Sand Cast",
+  "item.anvil_tinkering.pressure_plate_red_sand_cast": "Pressure Plate Red Sand Cast",
+
+
+
+  "fluid.anvil_tinkering.molten_royal_steel": "Molten Royal Steel",
+  "item.anvil_tinkering.molten_royal_steel_bucket": "Molten Royal Steel Bucket",
+
+  "fluid.anvil_tinkering.molten_ferrite": "Ferrite Fluid",
+  "item.anvil_tinkering.molten_ferrite_bucket": "Ferrite Fluid Bucket"
+}

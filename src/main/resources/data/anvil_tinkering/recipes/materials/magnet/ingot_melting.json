@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "anvilcraft:magnet_ingot"
+  },
+  "result": {
+    "fluid": "anvil_tinkering:molten_ferrite",
+    "amount": 100
+  },
+  "temperature": 800,
+  "time": 50
+}

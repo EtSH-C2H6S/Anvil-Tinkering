@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "anvilcraft:zinc_pressure_plate"
+  },
+  "result": {
+    "tag": "forge:molten_zinc",
+    "amount": 47
+  },
+  "temperature": 950,
+  "time": 61
+}

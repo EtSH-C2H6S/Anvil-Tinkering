@@ -1,0 +1,10 @@
+{
+  "modifier.anvil_tinkering": {
+    "magnetizing": "#3B4B5C",
+    "unbreaking": "#D6D187"
+  },
+  "material.anvil_tinkering": {
+    "magnet": "#3B4B5C",
+    "royal_steel": "#D6D187"
+  }
+}

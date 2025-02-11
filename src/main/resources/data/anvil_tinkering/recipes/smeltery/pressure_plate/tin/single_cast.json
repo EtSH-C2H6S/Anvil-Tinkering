@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/pressure_plate"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_tin",
+    "amount": 90
+  },
+  "result": "anvilcraft:tin_pressure_plate",
+  "cooling_time": 39
+}

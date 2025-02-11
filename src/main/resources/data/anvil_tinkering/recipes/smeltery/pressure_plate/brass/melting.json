@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "anvilcraft:brass_pressure_plate"
+  },
+  "result": {
+    "tag": "forge:molten_brass",
+    "amount": 90
+  },
+  "temperature": 950,
+  "time": 54
+}

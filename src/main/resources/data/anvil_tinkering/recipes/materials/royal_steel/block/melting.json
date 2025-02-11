@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "anvilcraft:royal_steel_block"
+  },
+  "result": {
+    "fluid": "anvil_tinkering:molten_royal_steel",
+    "amount": 810
+  },
+  "temperature": 990,
+  "time": 200
+}

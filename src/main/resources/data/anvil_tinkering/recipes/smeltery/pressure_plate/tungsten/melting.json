@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "anvilcraft:tungsten_pressure_plate"
+  },
+  "result": {
+    "tag": "forge:molten_tungsten",
+    "amount": 90
+  },
+  "temperature": 950,
+  "time": 65
+}

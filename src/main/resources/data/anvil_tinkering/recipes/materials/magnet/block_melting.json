@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "anvilcraft:ferrite_core_magnet_block"
+    },
+    {
+      "item": "anvilcraft:magnet_block"
+    }
+  ],
+  "result": {
+    "fluid": "anvil_tinkering:molten_ferrite",
+    "amount": 900
+  },
+  "temperature": 800,
+  "time": 150
+}

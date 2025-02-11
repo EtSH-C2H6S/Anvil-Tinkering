@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "fluid": "anvil_tinkering:molten_royal_steel",
+    "amount": 90
+  },
+  "result": "anvilcraft:royal_steel_ingot",
+  "cooling_time": 60
+}

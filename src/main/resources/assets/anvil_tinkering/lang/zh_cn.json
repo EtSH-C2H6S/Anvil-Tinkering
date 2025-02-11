@@ -1,0 +1,33 @@
+{
+  "modifier.anvil_tinkering.magnetizing": "磁化",
+  "modifier.anvil_tinkering.magnetizing.flavor": "强磁！",
+  "modifier.anvil_tinkering.magnetizing.description": "使用时有概率将工具产生的掉落物中的铁锭和铁块转换为磁铁。",
+
+  "modifier.anvil_tinkering.unbreaking": "耐久",
+  "modifier.anvil_tinkering.unbreaking.flavor": "最大生效III级哦",
+  "modifier.anvil_tinkering.unbreaking.description": "使用工具时有概率不消耗耐久，概率与原版耐久附魔一致。",
+
+
+
+  "material.anvil_tinkering.royal_steel": "皇家钢",
+  "material.anvil_tinkering.royal_steel.flavor": "比钻石更好！",
+  "material.anvil_tinkering.royal_steel.encyclopedia": "同时具备金属与宝石特性的金属，似乎陈述着某些过去的事...",
+
+  "material.anvil_tinkering.magnet": "磁铁",
+  "material.anvil_tinkering.magnet.flavor": "不仅仅是带有磁力的铁。",
+  "material.anvil_tinkering.magnet.encyclopedia": "磁化掉落物的概率为每级2%",
+
+
+
+  "item.anvil_tinkering.pressure_plate_cast": "压力板金质铸膜",
+  "item.anvil_tinkering.pressure_plate_sand_cast": "压力板沙子铸膜",
+  "item.anvil_tinkering.pressure_plate_red_sand_cast": "压力板红沙铸膜",
+
+
+
+  "fluid.anvil_tinkering.molten_royal_steel": "熔融皇家钢",
+  "item.anvil_tinkering.molten_royal_steel_bucket": "熔融皇家钢桶",
+
+  "fluid.anvil_tinkering.molten_ferrite": "铁氧体流体",
+  "item.anvil_tinkering.molten_ferrite_bucket": "铁氧体流体桶"
+}

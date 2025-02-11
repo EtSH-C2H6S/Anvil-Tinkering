@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "fluid": "anvil_tinkering:molten_royal_steel",
+    "amount": 10
+  },
+  "result": "anvilcraft:royal_steel_nugget",
+  "cooling_time": 60
+}

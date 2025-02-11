@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:molding_table",
+  "material": {
+    "tag": "tconstruct:casts/red_sand"
+  },
+  "pattern": {
+    "tag": "minecraft:wooden_pressure_plates"
+  },
+  "result": "anvil_tinkering:pressure_plate_red_sand_cast"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "anvilcraft:hollow_magnet_block"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "fluid": "anvil_tinkering:molten_ferrite",
+    "amount": 100
+  },
+  "result": "anvilcraft:magnet_block",
+  "cooling_time": 300
+}

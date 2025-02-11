@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "tag": "forge:molten_iron"
+    },
+    {
+      "amount": 100,
+      "tag": "minecraft:water"
+    }
+  ],
+  "result": {
+    "amount": 100,
+    "fluid": "anvil_tinkering:molten_ferrite"
+  },
+  "temperature": 1000
+}

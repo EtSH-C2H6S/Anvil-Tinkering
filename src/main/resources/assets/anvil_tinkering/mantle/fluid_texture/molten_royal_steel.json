@@ -1,0 +1,5 @@
+{
+  "color": "FFFFFFFF",
+  "flowing": "anvil_tinkering:block/fluid/molten_royal_steel/flowing",
+  "still": "anvil_tinkering:block/fluid/molten_royal_steel/still"
+}

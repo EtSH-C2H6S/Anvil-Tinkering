@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "anvil_tinkering:royal_steel",
+  "temperature": 990,
+  "result": {
+    "fluid": "anvil_tinkering:molten_royal_steel",
+    "amount": 90
+  }
+}

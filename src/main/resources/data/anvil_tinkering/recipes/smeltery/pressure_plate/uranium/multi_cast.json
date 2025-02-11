@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/pressure_plate"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "tag": "forge:molten_uranium",
+    "amount": 90
+  },
+  "result": "anvilcraft:uranium_pressure_plate",
+  "cooling_time": 61
+}

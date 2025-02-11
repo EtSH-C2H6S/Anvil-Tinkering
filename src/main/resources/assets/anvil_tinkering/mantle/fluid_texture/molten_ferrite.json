@@ -1,0 +1,5 @@
+{
+  "color": "FFFFFFFF",
+  "flowing": "anvil_tinkering:block/fluid/molten_ferrite/flowing",
+  "still": "anvil_tinkering:block/fluid/molten_ferrite/still"
+}

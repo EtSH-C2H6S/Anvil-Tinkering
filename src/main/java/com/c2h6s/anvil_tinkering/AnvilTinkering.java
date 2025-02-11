@@ -1,5 +1,8 @@
 package com.c2h6s.anvil_tinkering;
 
+import com.c2h6s.anvil_tinkering.register.AnTFluids;
+import com.c2h6s.anvil_tinkering.register.AnTItems;
+import com.c2h6s.anvil_tinkering.register.AnTModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,6 +16,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import slimeknights.tconstruct.smeltery.TinkerSmeltery;
+
+import java.util.Random;
 
 @Mod(AnvilTinkering.MODID)
 public class AnvilTinkering
@@ -22,13 +28,17 @@ public class AnvilTinkering
     public static ResourceLocation getNamespacedLocation(String name){
         return new ResourceLocation(MODID,name);
     }
+    public static Random RANDOM = new Random();
 
     public AnvilTinkering(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
         modEventBus.addListener(this::commonSetup);
-        MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+        MinecraftForge.EVENT_BUS.register(this);
+        AnTFluids.FLUIDS.register(modEventBus);
+        AnTItems.ITEMS.register(modEventBus);
+        AnTModifiers.MODIFIER.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -38,6 +48,11 @@ public class AnvilTinkering
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if (event.getTabKey()== TinkerSmeltery.tabSmeltery.getKey()){
+            event.accept(AnTItems.PRESSURE_PLATE_CAST.get());
+            event.accept(AnTItems.PRESSURE_PLATE_CAST.getSand());
+            event.accept(AnTItems.PRESSURE_PLATE_CAST.getRedSand());
+        }
     }
 
     @SubscribeEvent
