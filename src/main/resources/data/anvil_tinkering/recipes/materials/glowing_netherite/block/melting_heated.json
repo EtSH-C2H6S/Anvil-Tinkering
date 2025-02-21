@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "anvilcraft:heated_netherite_block"
+  },
+  "result": {
+    "fluid": "anvil_tinkering:super_hot_molten_netherite",
+    "amount": 810
+  },
+  "temperature": 1500,
+  "time": 80
+}

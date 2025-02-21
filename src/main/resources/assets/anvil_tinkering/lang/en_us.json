@@ -29,5 +29,11 @@
   "item.anvil_tinkering.molten_royal_steel_bucket": "Molten Royal Steel Bucket",
 
   "fluid.anvil_tinkering.molten_ferrite": "Ferrite Fluid",
-  "item.anvil_tinkering.molten_ferrite_bucket": "Ferrite Fluid Bucket"
+  "item.anvil_tinkering.molten_ferrite_bucket": "Ferrite Fluid Bucket",
+
+  "fluid.anvil_tinkering.super_hot_molten_tungsten": "Super Hot Molten Tungsten",
+  "item.anvil_tinkering.super_hot_molten_tungsten_bucket": "Super Hot Molten Tungsten Bucket",
+
+  "fluid.anvil_tinkering.super_hot_molten_netherite": "Super Hot Molten Netherite",
+  "item.anvil_tinkering.super_hot_molten_netherite_bucket": "Super Hot Molten Netherite Bucket"
 }

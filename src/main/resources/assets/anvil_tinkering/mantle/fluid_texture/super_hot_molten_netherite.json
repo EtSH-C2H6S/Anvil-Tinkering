@@ -1,0 +1,5 @@
+{
+  "color": "FFFFFFFF",
+  "flowing": "anvil_tinkering:block/fluid/super_hot_molten_netherite/flowing",
+  "still": "anvil_tinkering:block/fluid/super_hot_molten_netherite/still"
+}

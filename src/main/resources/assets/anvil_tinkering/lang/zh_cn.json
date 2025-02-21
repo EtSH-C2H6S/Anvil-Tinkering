@@ -19,6 +19,13 @@
 
 
 
+  "material.tconstruct.tungsten.heated": "加热的钨",
+  "material.tconstruct.tungsten.redhot": "红热的钨",
+  "material.tconstruct.tungsten.glowing": "炽热的钨",
+  "material.tconstruct.tungsten.incandescent": "白炽的钨",
+
+
+
   "item.anvil_tinkering.pressure_plate_cast": "压力板金质铸膜",
   "item.anvil_tinkering.pressure_plate_sand_cast": "压力板沙子铸膜",
   "item.anvil_tinkering.pressure_plate_red_sand_cast": "压力板红沙铸膜",
@@ -29,5 +36,12 @@
   "item.anvil_tinkering.molten_royal_steel_bucket": "熔融皇家钢桶",
 
   "fluid.anvil_tinkering.molten_ferrite": "铁氧体流体",
-  "item.anvil_tinkering.molten_ferrite_bucket": "铁氧体流体桶"
+  "item.anvil_tinkering.molten_ferrite_bucket": "铁氧体流体桶",
+
+  "fluid.anvil_tinkering.super_hot_molten_tungsten": "炽热的熔融钨",
+  "item.anvil_tinkering.super_hot_molten_tungsten_bucket": "炽热的熔融钨桶",
+
+  "fluid.anvil_tinkering.super_hot_molten_netherite": "炽热的熔融下界合金",
+  "item.anvil_tinkering.super_hot_molten_netherite_bucket": "炽热的熔融下界合金桶"
+
 }

@@ -1,6 +1,7 @@
 package com.c2h6s.anvil_tinkering.register;
 
 import com.c2h6s.anvil_tinkering.AnvilTinkering;
+import com.c2h6s.anvil_tinkering.tinkering.modifiers.Test;
 import com.c2h6s.anvil_tinkering.tinkering.modifiers.common.Magnetizing;
 import com.c2h6s.anvil_tinkering.tinkering.modifiers.durabliity.Unbreaking;
 import slimeknights.tconstruct.library.modifiers.util.ModifierDeferredRegister;
@@ -11,4 +12,5 @@ public class AnTModifiers {
 
     public static final StaticModifier<Magnetizing> MAGNETIZING = MODIFIER.register("magnetizing",Magnetizing::new);
     public static final StaticModifier<Unbreaking> UNBREAKING = MODIFIER.register("unbreaking",Unbreaking::new);
+    public static final StaticModifier<Test> TEST = MODIFIER.register("test", Test::new);
 }

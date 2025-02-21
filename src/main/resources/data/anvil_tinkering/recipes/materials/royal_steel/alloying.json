@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 270,
+      "tag": "forge:molten_iron"
+    },
+    {
+      "amount": 100,
+      "tag": "tconstruct:molten_diamond"
+    },
+    {
+      "amount": 100,
+      "tag": "tconstruct:molten_amethyst"
+    },
+    {
+      "amount": 100,
+      "tag": "anvil_tinkering:gem_royal_steel_accept"
+    }
+  ],
+  "result": {
+    "amount": 90,
+    "fluid": "anvil_tinkering:molten_royal_steel"
+  },
+  "temperature": 1000
+}

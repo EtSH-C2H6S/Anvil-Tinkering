@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "fluid": "anvil_tinkering:super_hot_molten_netherite",
+    "amount": 810
+  },
+  "result": "anvilcraft:glowing_netherite_block",
+  "cooling_time": 40
+}

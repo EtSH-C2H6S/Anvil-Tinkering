@@ -34,7 +34,7 @@ public class AnTBaseModifier extends Modifier implements MeleeHitModifierHook, M
     @Override
     protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
         super.registerHooks(hookBuilder);
-        hookBuilder.addHook(this, ModifierHooks.ON_ATTACKED,ModifierHooks.REMOVE,ModifierHooks.DAMAGE_BLOCK,ModifierHooks.INVENTORY_TICK,ModifierHooks.MELEE_DAMAGE,ModifierHooks.MELEE_HIT,ModifierHooks.PROJECTILE_HIT,ModifierHooks.PROJECTILE_LAUNCH,ModifierHooks.BLOCK_BREAK,ModifierHooks.EQUIPMENT_CHANGE);
+        hookBuilder.addHook(this, ModifierHooks.ON_ATTACKED,ModifierHooks.REMOVE,ModifierHooks.DAMAGE_BLOCK,ModifierHooks.INVENTORY_TICK,ModifierHooks.MELEE_DAMAGE,ModifierHooks.MELEE_HIT,ModifierHooks.PROJECTILE_HIT,ModifierHooks.PROJECTILE_LAUNCH,ModifierHooks.BLOCK_BREAK,ModifierHooks.EQUIPMENT_CHANGE,ModifierHooks.TOOL_DAMAGE);
     }
 
     public boolean isNoLevels(){

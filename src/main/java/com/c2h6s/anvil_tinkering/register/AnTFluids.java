@@ -18,6 +18,8 @@ public class AnTFluids {
 
     public static final FluidObject<ForgeFlowingFluid> MOLTEN_ROYAL_STEEL = FLUIDS.register("molten_royal_steel").type(hot("molten_royal_steel")).bucket().block(createBurning(MapColor.COLOR_GRAY,15,8,1f)).commonTag().flowing();
     public static final FluidObject<ForgeFlowingFluid> MOLTEN_FERRITE = FLUIDS.register("molten_ferrite").type(cool("molten_ferrite")).bucket().block(MapColor.COLOR_BLACK,0).commonTag().flowing();
+    public static final FluidObject<ForgeFlowingFluid> SUPER_HOT_MOLTEN_TUNGSTEN = FLUIDS.register("super_hot_molten_tungsten").type(hot("super_hot_molten_tungsten")).bucket().block(createBurning(MapColor.COLOR_GRAY,15,200,4f)).commonTag().flowing();
+    public static final FluidObject<ForgeFlowingFluid> SUPER_HOT_MOLTEN_NETHERITE = FLUIDS.register("super_hot_molten_netherite").type(hot("super_hot_molten_netherite")).bucket().block(createBurning(MapColor.COLOR_GRAY,15,200,4f)).commonTag().flowing();
 
     private static FluidType.Properties hot(String name) {
         return FluidType.Properties.create().density(2000).viscosity(10000).temperature(1000)

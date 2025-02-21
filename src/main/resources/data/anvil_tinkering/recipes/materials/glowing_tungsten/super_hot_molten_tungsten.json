@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 270,
+      "tag": "forge:molten_tungsten"
+    },
+    {
+      "amount": 100,
+      "tag": "tconstruct:blazing_blood"
+    }
+  ],
+  "result": {
+    "amount": 270,
+    "fluid": "anvil_tinkering:super_hot_molten_tungsten"
+  },
+  "temperature": 1500
+}
